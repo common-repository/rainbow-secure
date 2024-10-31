@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    font-size: 24px;
+    color: #0073aa;
+    text-align: center;
+}
+.section {
+    margin-top: 20px;
+}
+.section h2 {
+    font-size: 18px;
+    color: #444;
+}
+.section p {
+    font-size: 14px;
+    color: #555;
+}
+.section strong {
+    color: #000;
+}
+.section code {
+    background-color: #eaeaea;
+    padding: 2px 4px;
+    border-radius: 4px;
+}

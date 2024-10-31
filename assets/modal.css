@@ -1,0 +1,59 @@
+.rainbow_secure_welcome_modal {
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.rainbow_secure_modal_content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 600px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.25);
+    animation: appear 0.3s ease-out forwards;
+}
+
+.rainbow_secure_modal_header, .rainbow_secure_modal_footer {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.rainbow_secure_modal_body {
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.rainbow_secure_modal_footer {
+    display: flex;
+    justify-content: space-between;
+    width: initial;
+}
+
+@keyframes appear {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+#rainbow_secure_next,#rainbow_secure_prev{
+width: -webkit-fill-available;
+}
+
+#rainbow_secure_logo{ 
+    display: flex;
+}
+
+#rainbow_secure_request_activation_key{
+    width: -webkit-fill-available;
+}

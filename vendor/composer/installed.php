@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'denil/rainbow-secure',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'denil/rainbow-secure' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'onelogin/php-saml' => array(
+            'pretty_version' => '4.2.0',
+            'version' => '4.2.0.0',
+            'reference' => 'd3b5172f137db2f412239432d77253ceaaa1e939',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../onelogin/php-saml',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'robrichards/xmlseclibs' => array(
+            'pretty_version' => '3.1.1',
+            'version' => '3.1.1.0',
+            'reference' => 'f8f19e58f26cdb42c54b214ff8a820760292f8df',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../robrichards/xmlseclibs',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,13 @@
+{
+    "name": "denil/rainbow-secure",
+    "description": "SAML SSO CONNECTOR",
+    "type": "project",
+    "license": "rainbowsecure",
+    "minimum-stability": "dev",
+    "require": {
+        "onelogin/php-saml": "^4.2"
+    },
+    "autoload":{
+        "psr-4": {"rainbow_secure_Inc\\": "inc/"}
+    }
+}

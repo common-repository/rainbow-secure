@@ -1,0 +1,88 @@
+.nav-tabs {
+	float: left;
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+	border-bottom: 1px solid transparent;
+}
+
+.nav-tabs > li {
+	float: left;
+	margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+	margin-right: 2px;
+	line-height: 1.5;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	float: left;
+	text-decoration: none;
+}
+
+.nav-tabs > li > a:hover {
+	border-color: #eee #eee #ddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	color: #555;
+	cursor: default;
+	background-color: #fff;
+	border-color: transparent;
+}
+
+.tab-content > .tab-pane {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.tab-content > .tab-pane.active {
+	display: block;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 5px 4px -2px rgba(0, 0, 0, 0.15);
+}
+.rainbow_secure_modal_footer {
+    padding: 20px; /* Padding for aesthetic spacing */
+    background-color: #f1f1f1; /* Slightly different background to distinguish sections */
+    display: flex; /* Using flexbox to control the alignment */
+    justify-content: space-between; /* Aligns one button to the left and the other to the right */
+}
+/* 
+.info-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #0073aa;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+} */
+ .tooltip{
+	color: #817e7e;
+ }
+
+
+.rainbow-secure-instructions-img{
+	text-align: center; 
+	margin-top: 20px;
+	background-color: aliceblue;
+	border-radius: 8px;
+	border-style: outset;
+}
+#tab-6 ol ul li{
+	font-size: larger;
+}
+.rainbow-secure-instructions-img img{
+	padding: 1em;
+}
